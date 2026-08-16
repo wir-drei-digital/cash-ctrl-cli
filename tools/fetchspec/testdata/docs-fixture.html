@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<body>
+<section class="action">
+    <a id="intro"></a>
+    <h2>Introduction</h2>
+    <p>Base URL</p>
+    <div class="endpoint">
+        https://myorg.cashctrl.com/api/v1
+    </div>
+</section>
+<section class="action">
+    <a id="/widget/list.json"></a>
+    <div class="pagewidth columns">
+        <div class="left">
+            <div class="description">
+                <div class="breadcrumbs">
+                    <a href="#/widget">Widget</a> <span class="fal fa-chevron-right"></span>
+                </div>
+                <h3>List widgets</h3>
+<p>Returns a list of widgets.</p>
+            </div>
+            <h4>Parameters</h4>
+<table class="parameters">
+    <tr><th><code>dir</code></th><td><code class="name mobile">dir</code><div class="labels"><div class="label">optional</div><div class="label datatype">TEXT</div></div><p>Sort direction. Possible values: ASC, DESC.</p>
+</td></tr><tr><th><code>limit</code></th><td><code class="name mobile">limit</code><div class="labels"><div class="label">optional</div><div class="label datatype">NUMBER</div></div><p>The number of entries to retrieve. Defaults to 100.</p>
+</td></tr><tr><th><code>start</code></th><td><code class="name mobile">start</code><div class="labels"><div class="label">optional</div><div class="label datatype">NUMBER</div></div><p>The starting entry.</p>
+</td></tr></table>
+        </div>
+        <div class="right">
+            <h4>Endpoint</h4>
+            <div class="endpoint">
+                GET /api/v1/widget/list.json
+            </div>
+        </div>
+    </div>
+</section>
+<section class="action">
+    <a id="/widget/create.json"></a>
+    <div class="pagewidth columns">
+        <div class="left">
+            <div class="description">
+                <div class="breadcrumbs">
+                    <a href="#/widget">Widget</a>
+                </div>
+                <h3>Create widget</h3>
+<p>Creates a new widget.</p>
+            </div>
+            <h4>Parameters</h4>
+<table class="parameters">
+    <tr><th><code>name</code></th><td><code class="name mobile">name</code><div class="labels"><div class="label mandatory">mandatory</div><div class="label datatype">TEXT</div><div class="label">MAX:100</div></div><p>The widget name.</p>
+</td></tr><tr><th><code>parts</code></th><td><code class="name mobile">parts</code><div class="labels"><div class="label">optional</div><div class="label datatype">JSON</div></div><p>The parts.</p>
+<p>This is a JSON array <code>[{...},{...},...]</code> with the following parameters:</p>
+<table class="parameters sub"><tr><th><code>kind</code></th><td><code class="name mobile">kind</code><div class="labels"><div class="label mandatory">mandatory</div><div class="label datatype">TEXT</div></div><p>The part kind. Possible values: BOLT, NUT.</p>
+</td></tr><tr><th><code>qty</code></th><td><code class="name mobile">qty</code><div class="labels"><div class="label">optional</div><div class="label datatype">NUMBER</div></div><p>How many.</p>
+</td></tr></table>
+</td></tr></table>
+        </div>
+        <div class="right">
+            <h4>Endpoint</h4>
+            <div class="endpoint">
+                POST /api/v1/widget/create.json
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>

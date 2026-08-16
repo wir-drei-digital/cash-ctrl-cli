@@ -1,0 +1,24 @@
+version: 2
+project_name: cashctrl
+
+builds:
+  - main: ./cmd/cashctrl
+    binary: cashctrl
+    env: [CGO_ENABLED=0]
+    goos: [linux, darwin, windows]
+    goarch: [amd64, arm64]
+    ignore:
+      # Windows on arm64 has no meaningful user base here; five artifacts.
+      - goos: windows
+        goarch: arm64
+    ldflags:
+      - -s -w -X github.com/wir-drei-digital/cash-ctrl-cli/internal/cli.Version={{.Version}}
+
+archives:
+  - formats: [tar.gz]
+    format_overrides:
+      - goos: windows
+        formats: [zip]
+
+checksum:
+  name_template: checksums.txt

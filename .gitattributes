@@ -1,0 +1,5 @@
+# The vendored spec and the generated manifest are build inputs/outputs, not
+# hand-written code: collapse them in diffs so reviews focus on real changes.
+spec/cashctrl-api.json linguist-generated=true -diff
+internal/manifest/manifest.json.gz binary
+tools/genmanifest/testdata/golden_commands.txt linguist-generated=true

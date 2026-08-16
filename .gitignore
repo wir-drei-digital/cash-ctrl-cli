@@ -1,0 +1,5 @@
+/bin/
+/dist/
+*.test
+*.out
+tools/genmanifest/classifications.proposed.json

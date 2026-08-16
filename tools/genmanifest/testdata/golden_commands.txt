@@ -1,0 +1,376 @@
+account balance | GET /account/balance | read | none | binary
+account bank create | POST /account/bank/create.json | write | none | json
+account bank delete | POST /account/bank/delete.json | delete | none | json
+account bank list | GET /account/bank/list.json | read | none | json
+account bank list-csv | GET /account/bank/list.csv | read | none | binary
+account bank list-pdf | GET /account/bank/list.pdf | read | none | binary
+account bank list-xlsx | GET /account/bank/list.xlsx | read | none | binary
+account bank read | GET /account/bank/read.json | read | none | json
+account bank update | POST /account/bank/update.json | write | none | json
+account bank update-attachments | POST /account/bank/update_attachments.json | write | none | json
+account categorize | POST /account/categorize.json | write | none | json
+account category create | POST /account/category/create.json | write | none | json
+account category delete | POST /account/category/delete.json | delete | none | json
+account category list | GET /account/category/list.json | read | none | json
+account category read | GET /account/category/read.json | read | none | json
+account category tree | GET /account/category/tree.json | read | none | json
+account category update | POST /account/category/update.json | write | none | json
+account costcenter balance | GET /account/costcenter/balance | read | none | binary
+account costcenter categorize | POST /account/costcenter/categorize.json | write | none | json
+account costcenter category create | POST /account/costcenter/category/create.json | write | none | json
+account costcenter category delete | POST /account/costcenter/category/delete.json | delete | none | json
+account costcenter category list | GET /account/costcenter/category/list.json | read | none | json
+account costcenter category read | GET /account/costcenter/category/read.json | read | none | json
+account costcenter category tree | GET /account/costcenter/category/tree.json | read | none | json
+account costcenter category update | POST /account/costcenter/category/update.json | write | none | json
+account costcenter create | POST /account/costcenter/create.json | write | none | json
+account costcenter delete | POST /account/costcenter/delete.json | delete | none | json
+account costcenter list | GET /account/costcenter/list.json | read | none | json
+account costcenter list-csv | GET /account/costcenter/list.csv | read | none | binary
+account costcenter list-pdf | GET /account/costcenter/list.pdf | read | none | binary
+account costcenter list-xlsx | GET /account/costcenter/list.xlsx | read | none | binary
+account costcenter read | GET /account/costcenter/read.json | read | none | json
+account costcenter update | POST /account/costcenter/update.json | write | none | json
+account costcenter update-attachments | POST /account/costcenter/update_attachments.json | write | none | json
+account create | POST /account/create.json | write | none | json
+account delete | POST /account/delete.json | delete | none | json
+account list | GET /account/list.json | read | none | json
+account list-csv | GET /account/list.csv | read | none | binary
+account list-pdf | GET /account/list.pdf | read | none | binary
+account list-xlsx | GET /account/list.xlsx | read | none | binary
+account read | GET /account/read.json | read | none | json
+account update | POST /account/update.json | write | none | json
+account update-attachments | POST /account/update_attachments.json | write | none | json
+currency create | POST /currency/create.json | write | none | json
+currency delete | POST /currency/delete.json | delete | none | json
+currency exchangerate | GET /currency/exchangerate | read | none | binary
+currency list | GET /currency/list.json | read | none | json
+currency read | GET /currency/read.json | read | none | json
+currency update | POST /currency/update.json | write | none | json
+customfield create | POST /customfield/create.json | write | none | json
+customfield delete | POST /customfield/delete.json | delete | none | json
+customfield group create | POST /customfield/group/create.json | write | none | json
+customfield group delete | POST /customfield/group/delete.json | delete | none | json
+customfield group list | GET /customfield/group/list.json | read | none | json
+customfield group read | GET /customfield/group/read.json | read | none | json
+customfield group reorder | POST /customfield/group/reorder.json | write | none | json
+customfield group update | POST /customfield/group/update.json | write | none | json
+customfield list | GET /customfield/list.json | read | none | json
+customfield read | GET /customfield/read.json | read | none | json
+customfield reorder | POST /customfield/reorder.json | write | none | json
+customfield types | GET /customfield/types.json | read | none | json
+customfield update | POST /customfield/update.json | write | none | json
+domain current logo | GET /domain/current/logo | read | none | binary
+file categorize | POST /file/categorize.json | write | none | json
+file category create | POST /file/category/create.json | write | none | json
+file category delete | POST /file/category/delete.json | delete | none | json
+file category list | GET /file/category/list.json | read | none | json
+file category read | GET /file/category/read.json | read | none | json
+file category tree | GET /file/category/tree.json | read | none | json
+file category update | POST /file/category/update.json | write | none | json
+file create | POST /file/create.json | write | none | json
+file delete | POST /file/delete.json | delete | none | json
+file empty-archive | POST /file/empty_archive.json | delete | none | json
+file get | GET /file/get | read | none | binary
+file list | GET /file/list.json | read | start-limit | json
+file list-csv | GET /file/list.csv | read | start-limit | binary
+file list-pdf | GET /file/list.pdf | read | start-limit | binary
+file list-xlsx | GET /file/list.xlsx | read | start-limit | binary
+file persist | POST /file/persist.json | write | none | json
+file prepare | POST /file/prepare.json | write | none | json
+file read | GET /file/read.json | read | none | json
+file restore | POST /file/restore.json | write | none | json
+file update | POST /file/update.json | write | none | json
+fiscalperiod bookdepreciations | POST /fiscalperiod/bookdepreciations.json | write | none | json
+fiscalperiod bookexchangediff | POST /fiscalperiod/bookexchangediff.json | write | none | json
+fiscalperiod complete | POST /fiscalperiod/complete.json | write | none | json
+fiscalperiod complete-months | POST /fiscalperiod/complete_months.json | write | none | json
+fiscalperiod create | POST /fiscalperiod/create.json | write | none | json
+fiscalperiod delete | POST /fiscalperiod/delete.json | delete | none | json
+fiscalperiod depreciations | GET /fiscalperiod/depreciations.json | read | none | json
+fiscalperiod exchangediff | GET /fiscalperiod/exchangediff.json | read | none | json
+fiscalperiod list | GET /fiscalperiod/list.json | read | none | json
+fiscalperiod read | GET /fiscalperiod/read.json | read | none | json
+fiscalperiod reopen | POST /fiscalperiod/reopen.json | write | none | json
+fiscalperiod reopen-months | GET /fiscalperiod/reopen_months.json | read | none | json
+fiscalperiod result | GET /fiscalperiod/result | read | none | binary
+fiscalperiod switch | POST /fiscalperiod/switch.json | write | none | json
+fiscalperiod task create | POST /fiscalperiod/task/create.json | write | none | json
+fiscalperiod task delete | POST /fiscalperiod/task/delete.json | delete | none | json
+fiscalperiod task list | GET /fiscalperiod/task/list.json | read | none | json
+fiscalperiod update | POST /fiscalperiod/update.json | write | none | json
+history list | GET /history/list.json | read | start-limit | json
+inventory article categorize | POST /inventory/article/categorize.json | write | none | json
+inventory article category create | POST /inventory/article/category/create.json | write | none | json
+inventory article category delete | POST /inventory/article/category/delete.json | delete | none | json
+inventory article category list | GET /inventory/article/category/list.json | read | none | json
+inventory article category read | GET /inventory/article/category/read.json | read | none | json
+inventory article category tree | GET /inventory/article/category/tree.json | read | none | json
+inventory article category update | POST /inventory/article/category/update.json | write | none | json
+inventory article create | POST /inventory/article/create.json | write | none | json
+inventory article delete | POST /inventory/article/delete.json | delete | none | json
+inventory article import create | POST /inventory/article/import/create.json | write | none | json
+inventory article import execute | POST /inventory/article/import/execute.json | write | none | json
+inventory article import mapping | POST /inventory/article/import/mapping.json | write | none | json
+inventory article import mapping-combo | GET /inventory/article/import/mapping_combo.json | read | none | json
+inventory article import preview | GET /inventory/article/import/preview.json | read | none | json
+inventory article list | GET /inventory/article/list.json | read | start-limit | json
+inventory article list-csv | GET /inventory/article/list.csv | read | start-limit | binary
+inventory article list-pdf | GET /inventory/article/list.pdf | read | start-limit | binary
+inventory article list-xlsx | GET /inventory/article/list.xlsx | read | start-limit | binary
+inventory article read | GET /inventory/article/read.json | read | none | json
+inventory article update | POST /inventory/article/update.json | write | none | json
+inventory article update-attachments | POST /inventory/article/update_attachments.json | write | none | json
+inventory asset categorize | POST /inventory/asset/categorize.json | write | none | json
+inventory asset category create | POST /inventory/asset/category/create.json | write | none | json
+inventory asset category delete | POST /inventory/asset/category/delete.json | delete | none | json
+inventory asset category list | GET /inventory/asset/category/list.json | read | none | json
+inventory asset category read | GET /inventory/asset/category/read.json | read | none | json
+inventory asset category tree | GET /inventory/asset/category/tree.json | read | none | json
+inventory asset category update | POST /inventory/asset/category/update.json | write | none | json
+inventory asset create | POST /inventory/asset/create.json | write | none | json
+inventory asset delete | POST /inventory/asset/delete.json | delete | none | json
+inventory asset list | GET /inventory/asset/list.json | read | start-limit | json
+inventory asset list-csv | GET /inventory/asset/list.csv | read | start-limit | binary
+inventory asset list-pdf | GET /inventory/asset/list.pdf | read | start-limit | binary
+inventory asset list-xlsx | GET /inventory/asset/list.xlsx | read | start-limit | binary
+inventory asset read | GET /inventory/asset/read.json | read | none | json
+inventory asset update | POST /inventory/asset/update.json | write | none | json
+inventory asset update-attachments | POST /inventory/asset/update_attachments.json | write | none | json
+inventory unit create | POST /inventory/unit/create.json | write | none | json
+inventory unit delete | POST /inventory/unit/delete.json | delete | none | json
+inventory unit list | GET /inventory/unit/list.json | read | none | json
+inventory unit read | GET /inventory/unit/read.json | read | none | json
+inventory unit update | POST /inventory/unit/update.json | write | none | json
+journal create | POST /journal/create.json | write | none | json
+journal delete | POST /journal/delete.json | delete | none | json
+journal import create | POST /journal/import/create.json | write | none | json
+journal import entry confirm | POST /journal/import/entry/confirm.json | write | none | json
+journal import entry delete | POST /journal/import/entry/delete.json | delete | none | json
+journal import entry list | GET /journal/import/entry/list.json | read | none | json
+journal import entry list-csv | GET /journal/import/entry/list.csv | read | none | binary
+journal import entry list-pdf | GET /journal/import/entry/list.pdf | read | none | binary
+journal import entry list-xlsx | GET /journal/import/entry/list.xlsx | read | none | binary
+journal import entry read | GET /journal/import/entry/read.json | read | none | json
+journal import entry restore | POST /journal/import/entry/restore.json | write | none | json
+journal import entry unconfirm | POST /journal/import/entry/unconfirm.json | write | none | json
+journal import entry update | POST /journal/import/entry/update.json | write | none | json
+journal import execute | POST /journal/import/execute.json | write | none | json
+journal import list | GET /journal/import/list.json | read | none | json
+journal import read | GET /journal/import/read.json | read | none | json
+journal list | GET /journal/list.json | read | start-limit | json
+journal list-csv | GET /journal/list.csv | read | start-limit | binary
+journal list-pdf | GET /journal/list.pdf | read | start-limit | binary
+journal list-xlsx | GET /journal/list.xlsx | read | start-limit | binary
+journal read | GET /journal/read.json | read | none | json
+journal update | POST /journal/update.json | write | none | json
+journal update-attachments | POST /journal/update_attachments.json | write | none | json
+journal update-recurrence | POST /journal/update_recurrence.json | write | none | json
+location create | POST /location/create.json | write | none | json
+location delete | POST /location/delete.json | delete | none | json
+location list | GET /location/list.json | read | none | json
+location read | GET /location/read.json | read | none | json
+location update | POST /location/update.json | write | none | json
+order bookentry create | POST /order/bookentry/create.json | write | none | json
+order bookentry delete | POST /order/bookentry/delete.json | delete | none | json
+order bookentry list | GET /order/bookentry/list.json | read | none | json
+order bookentry read | GET /order/bookentry/read.json | read | none | json
+order bookentry update | POST /order/bookentry/update.json | write | none | json
+order category create | POST /order/category/create.json | write | none | json
+order category delete | POST /order/category/delete.json | delete | none | json
+order category list | GET /order/category/list.json | read | none | json
+order category read | GET /order/category/read.json | read | none | json
+order category read-status | GET /order/category/read_status.json | read | none | json
+order category reorder | POST /order/category/reorder.json | write | none | json
+order category update | POST /order/category/update.json | write | none | json
+order continue | POST /order/continue.json | write | none | json
+order create | POST /order/create.json | write | none | json
+order delete | POST /order/delete.json | delete | none | json
+order document mail | POST /order/document/mail.json | send | none | json
+order document read | GET /order/document/read.json | read | none | json
+order document read-pdf | GET /order/document/read.pdf | read | none | binary
+order document read-zip | GET /order/document/read.zip | read | none | binary
+order document update | POST /order/document/update.json | write | none | json
+order dossier | GET /order/dossier.json | read | none | json
+order dossier-add | POST /order/dossier_add.json | write | none | json
+order dossier-remove | POST /order/dossier_remove.json | write | none | json
+order layout create | POST /order/layout/create.json | write | none | json
+order layout delete | POST /order/layout/delete.json | delete | none | json
+order layout list | GET /order/layout/list.json | read | none | json
+order layout read | GET /order/layout/read.json | read | none | json
+order layout update | POST /order/layout/update.json | write | none | json
+order list | GET /order/list.json | read | start-limit | json
+order list-csv | GET /order/list.csv | read | start-limit | binary
+order list-pdf | GET /order/list.pdf | read | start-limit | binary
+order list-xlsx | GET /order/list.xlsx | read | start-limit | binary
+order payment create | POST /order/payment/create.json | write | none | json
+order payment download | GET /order/payment/download | read | none | binary
+order read | GET /order/read.json | read | none | json
+order update | POST /order/update.json | write | none | json
+order update-attachments | POST /order/update_attachments.json | write | none | json
+order update-recurrence | POST /order/update_recurrence.json | write | none | json
+order update-status | POST /order/update_status.json | write | none | json
+person categorize | POST /person/categorize.json | write | none | json
+person category create | POST /person/category/create.json | write | none | json
+person category delete | POST /person/category/delete.json | delete | none | json
+person category list | GET /person/category/list.json | read | none | json
+person category read | GET /person/category/read.json | read | none | json
+person category tree | GET /person/category/tree.json | read | none | json
+person category update | POST /person/category/update.json | write | none | json
+person create | POST /person/create.json | write | none | json
+person delete | POST /person/delete.json | delete | none | json
+person import create | POST /person/import/create.json | write | none | json
+person import execute | POST /person/import/execute.json | write | none | json
+person import mapping | POST /person/import/mapping.json | write | none | json
+person import mapping-combo | GET /person/import/mapping_combo.json | read | none | json
+person import preview | GET /person/import/preview.json | read | none | json
+person list | GET /person/list.json | read | start-limit | json
+person list-csv | GET /person/list.csv | read | start-limit | binary
+person list-pdf | GET /person/list.pdf | read | start-limit | binary
+person list-vcf | GET /person/list.vcf | read | start-limit | binary
+person list-xlsx | GET /person/list.xlsx | read | start-limit | binary
+person read | GET /person/read.json | read | none | json
+person title create | POST /person/title/create.json | write | none | json
+person title delete | POST /person/title/delete.json | delete | none | json
+person title list | GET /person/title/list.json | read | none | json
+person title read | GET /person/title/read.json | read | none | json
+person title update | POST /person/title/update.json | write | none | json
+person update | POST /person/update.json | write | none | json
+person update-attachments | POST /person/update_attachments.json | write | none | json
+report collection create | POST /report/collection/create.json | write | none | json
+report collection delete | POST /report/collection/delete.json | delete | none | json
+report collection download-annualreport-pdf | GET /report/collection/download_annualreport.pdf | read | none | binary
+report collection download-csv | GET /report/collection/download.csv | read | none | binary
+report collection download-pdf | GET /report/collection/download.pdf | read | none | binary
+report collection download-xlsx | GET /report/collection/download.xlsx | read | none | binary
+report collection meta | GET /report/collection/meta.json | read | none | json
+report collection read | GET /report/collection/read.json | read | none | json
+report collection reorder | POST /report/collection/reorder.json | write | none | json
+report collection update | POST /report/collection/update.json | write | none | json
+report element create | POST /report/element/create.json | write | none | json
+report element data | GET /report/element/data.json | read | none | json
+report element data-html | GET /report/element/data.html | read | none | binary
+report element delete | POST /report/element/delete.json | delete | none | json
+report element download-csv | GET /report/element/download.csv | read | none | binary
+report element download-pdf | GET /report/element/download.pdf | read | none | binary
+report element download-xlsx | GET /report/element/download.xlsx | read | none | binary
+report element download-xml | GET /report/element/download.xml | read | none | binary
+report element meta | GET /report/element/meta.json | read | none | json
+report element read | GET /report/element/read.json | read | none | json
+report element reorder | POST /report/element/reorder.json | write | none | json
+report element update | POST /report/element/update.json | write | none | json
+report tree | GET /report/tree.json | read | none | json
+rounding create | POST /rounding/create.json | write | none | json
+rounding delete | POST /rounding/delete.json | delete | none | json
+rounding list | GET /rounding/list.json | read | none | json
+rounding read | GET /rounding/read.json | read | none | json
+rounding update | POST /rounding/update.json | write | none | json
+salary bookentry create | POST /salary/bookentry/create.json | write | none | json
+salary bookentry delete | POST /salary/bookentry/delete.json | delete | none | json
+salary bookentry list | GET /salary/bookentry/list.json | read | none | json
+salary bookentry read | GET /salary/bookentry/read.json | read | none | json
+salary bookentry update | POST /salary/bookentry/update.json | write | none | json
+salary category create | POST /salary/category/create.json | write | none | json
+salary category delete | POST /salary/category/delete.json | delete | none | json
+salary category list | GET /salary/category/list.json | read | none | json
+salary category read | GET /salary/category/read.json | read | none | json
+salary category tree | GET /salary/category/tree.json | read | none | json
+salary category update | POST /salary/category/update.json | write | none | json
+salary certificate document mail | POST /salary/certificate/document/mail.json | send | none | json
+salary certificate document read | GET /salary/certificate/document/read.json | read | none | json
+salary certificate document read-pdf | GET /salary/certificate/document/read.pdf | read | none | binary
+salary certificate document read-zip | GET /salary/certificate/document/read.zip | read | none | binary
+salary certificate list | GET /salary/certificate/list.json | read | start-limit | json
+salary certificate list-csv | GET /salary/certificate/list.csv | read | start-limit | binary
+salary certificate list-pdf | GET /salary/certificate/list.pdf | read | start-limit | binary
+salary certificate list-xlsx | GET /salary/certificate/list.xlsx | read | start-limit | binary
+salary certificate read | GET /salary/certificate/read.json | read | none | json
+salary certificate template create | POST /salary/certificate/template/create.json | write | none | json
+salary certificate template delete | POST /salary/certificate/template/delete.json | delete | none | json
+salary certificate template list | GET /salary/certificate/template/list.json | read | none | json
+salary certificate template read | GET /salary/certificate/template/read.json | read | none | json
+salary certificate template tree | GET /salary/certificate/template/tree.json | read | none | json
+salary certificate template update | POST /salary/certificate/template/update.json | write | none | json
+salary certificate update | POST /salary/certificate/update.json | write | none | json
+salary document mail | POST /salary/document/mail.json | send | none | json
+salary document read | GET /salary/document/read.json | read | none | json
+salary document read-pdf | GET /salary/document/read.pdf | read | none | binary
+salary document read-zip | GET /salary/document/read.zip | read | none | binary
+salary document update | POST /salary/document/update.json | write | none | json
+salary field list | GET /salary/field/list.json | read | none | json
+salary field read | GET /salary/field/read.json | read | none | json
+salary insurance type create | POST /salary/insurance/type/create.json | write | none | json
+salary insurance type delete | POST /salary/insurance/type/delete.json | delete | none | json
+salary insurance type list | GET /salary/insurance/type/list.json | read | none | json
+salary insurance type read | GET /salary/insurance/type/read.json | read | none | json
+salary insurance type update | POST /salary/insurance/type/update.json | write | none | json
+salary layout create | POST /salary/layout/create.json | write | none | json
+salary layout delete | POST /salary/layout/delete.json | delete | none | json
+salary layout list | GET /salary/layout/list.json | read | none | json
+salary layout read | GET /salary/layout/read.json | read | none | json
+salary layout update | POST /salary/layout/update.json | write | none | json
+salary payment create | POST /salary/payment/create.json | write | none | json
+salary payment download | GET /salary/payment/download | read | none | binary
+salary setting create | POST /salary/setting/create.json | write | none | json
+salary setting delete | POST /salary/setting/delete.json | delete | none | json
+salary setting list | GET /salary/setting/list.json | read | none | json
+salary setting read | GET /salary/setting/read.json | read | none | json
+salary setting update | POST /salary/setting/update.json | write | none | json
+salary statement calculate | POST /salary/statement/calculate.json | write | none | json
+salary statement create | POST /salary/statement/create.json | write | none | json
+salary statement delete | POST /salary/statement/delete.json | delete | none | json
+salary statement list | GET /salary/statement/list.json | read | start-limit | json
+salary statement list-csv | GET /salary/statement/list.csv | read | start-limit | binary
+salary statement list-pdf | GET /salary/statement/list.pdf | read | start-limit | binary
+salary statement list-xlsx | GET /salary/statement/list.xlsx | read | start-limit | binary
+salary statement read | GET /salary/statement/read.json | read | none | json
+salary statement update | POST /salary/statement/update.json | write | none | json
+salary statement update-attachments | POST /salary/statement/update_attachments.json | write | none | json
+salary statement update-multiple | POST /salary/statement/update_multiple.json | write | none | json
+salary statement update-recurrence | POST /salary/statement/update_recurrence.json | write | none | json
+salary statement update-status | POST /salary/statement/update_status.json | write | none | json
+salary status create | POST /salary/status/create.json | write | none | json
+salary status delete | POST /salary/status/delete.json | delete | none | json
+salary status list | GET /salary/status/list.json | read | none | json
+salary status read | GET /salary/status/read.json | read | none | json
+salary status reorder | POST /salary/status/reorder.json | write | none | json
+salary status update | POST /salary/status/update.json | write | none | json
+salary sum create | POST /salary/sum/create.json | write | none | json
+salary sum delete | POST /salary/sum/delete.json | delete | none | json
+salary sum list | GET /salary/sum/list.json | read | none | json
+salary sum read | GET /salary/sum/read.json | read | none | json
+salary sum update | POST /salary/sum/update.json | write | none | json
+salary template create | POST /salary/template/create.json | write | none | json
+salary template delete | POST /salary/template/delete.json | delete | none | json
+salary template list | GET /salary/template/list.json | read | none | json
+salary template read | GET /salary/template/read.json | read | none | json
+salary template tree | GET /salary/template/tree.json | read | none | json
+salary template update | POST /salary/template/update.json | write | none | json
+salary type categorize | POST /salary/type/categorize.json | write | none | json
+salary type create | POST /salary/type/create.json | write | none | json
+salary type delete | POST /salary/type/delete.json | delete | none | json
+salary type list | GET /salary/type/list.json | read | start-limit | json
+salary type list-csv | GET /salary/type/list.csv | read | start-limit | binary
+salary type list-pdf | GET /salary/type/list.pdf | read | start-limit | binary
+salary type list-xlsx | GET /salary/type/list.xlsx | read | start-limit | binary
+salary type read | GET /salary/type/read.json | read | none | json
+salary type update | POST /salary/type/update.json | write | none | json
+sequencenumber create | POST /sequencenumber/create.json | write | none | json
+sequencenumber delete | POST /sequencenumber/delete.json | delete | none | json
+sequencenumber get | GET /sequencenumber/get | read | none | binary
+sequencenumber list | GET /sequencenumber/list.json | read | none | json
+sequencenumber read | GET /sequencenumber/read.json | read | none | json
+sequencenumber update | POST /sequencenumber/update.json | write | none | json
+setting get | GET /setting/get | read | none | binary
+setting read | GET /setting/read.json | read | none | json
+setting update | POST /setting/update.json | write | none | json
+tax create | POST /tax/create.json | write | none | json
+tax delete | POST /tax/delete.json | delete | none | json
+tax list | GET /tax/list.json | read | none | json
+tax read | GET /tax/read.json | read | none | json
+tax update | POST /tax/update.json | write | none | json
+text create | POST /text/create.json | write | none | json
+text delete | POST /text/delete.json | delete | none | json
+text list | GET /text/list.json | read | none | json
+text read | GET /text/read.json | read | none | json
+text update | POST /text/update.json | write | none | json
